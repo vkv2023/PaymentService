@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 public class StripePaymentGW implements PaymentGateway {
 
     // Do not forget to remove sk before commiting the code.
-    private String apiKey = "use stripe screct key here";
+    private String apiKey = "use stripe secret key here to use webhook";
 
     @Override
     public String generatePaymentLink()
