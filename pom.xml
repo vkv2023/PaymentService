@@ -18,7 +18,7 @@
 		<license/>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer></developer>
 	</developers>
 	<scm>
 		<connection/>
@@ -34,7 +34,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -62,8 +61,13 @@
 			<artifactId>stripe-java</artifactId>
 			<version>26.12.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<version>4.2.1</version>
+		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -96,5 +100,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
